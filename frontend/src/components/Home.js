@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const REACT_APP_API_URL=process.env.REACT_APP_API_URL
-const REACT_APP_API_HELLO=process.env.REACT_APP_API_HELLO
+const REACT_APP_API_URL=process.env.REACT_APP_API_URL;
+const REACT_APP_API_HELLO=process.env.REACT_APP_API_HELLO;
 
 function Home() {
   const [message, setMessage] = useState("");
