@@ -26,9 +26,9 @@
    For frontend microservice.
    ##### https://github.com/himani0550/Orchestration_assign/tree/main/frontend
 5. Push the docker images to ECR repository.
-   https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_hello
-   https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_profiles
-   https://gallery.ecr.aws/c3w1m1q2/himani_orches_frontend
+   ##### https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_hello
+   ##### https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_profiles
+   ##### https://gallery.ecr.aws/c3w1m1q2/himani_orches_frontend
    ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/bbb81c96-532d-45bf-b706-d227bc028ba1)
 7. AWS Codecommit
    Have pushed code to codecommit successfully. kindly find below screenshot for same.
