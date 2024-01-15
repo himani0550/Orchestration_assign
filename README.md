@@ -20,7 +20,10 @@
    Frontend
 2. We will set up the EC2 instance.
    ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/c86bd6d0-7728-4446-9237-e1c87458e0d6)
-3.   Now, we have to setup AWS CLi on EC2 instance. 
+3. Now, we have to setup AWS CLi on EC2 instance. Use below command for AWS CLI.
+   aws configure --profile
+4. Conatinerize MERN application.
+   #####       
 
 
 
