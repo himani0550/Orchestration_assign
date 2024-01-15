@@ -23,7 +23,18 @@
 3. Now, we have to setup AWS CLi on EC2 instance. Use below command for AWS CLI.
    aws configure --profile
 4. Conatinerize MERN application.
-   #####       
+   For frontend microservice.
+   ##### https://github.com/himani0550/Orchestration_assign/tree/main/frontend
+5. Push the docker images to ECR repository.
+   https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_hello
+   https://gallery.ecr.aws/c3w1m1q2/himani_orches_backend_profiles
+   https://gallery.ecr.aws/c3w1m1q2/himani_orches_frontend
+   ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/bbb81c96-532d-45bf-b706-d227bc028ba1)
+7. AWS Codecommit
+   Have pushed code to codecommit successfully. kindly find below screenshot for same.
+   ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/9941aede-819d-4818-9058-dd4da656545b)
+
+        
 
 
 
