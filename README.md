@@ -13,6 +13,18 @@
 3. ##### Now, we will push the image to ECR.
    ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/82b75ab3-befd-4221-a7a7-8648e0194c2d)
 
+# Microservice deployment using EKS
+1. Total three microservices.
+   Helloservice
+   Profileservice
+   Frontend
+2. We will set up the EC2 instance.
+   ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/c86bd6d0-7728-4446-9237-e1c87458e0d6)
+3.   Now, we have to setup AWS CLi on EC2 instance. 
+
+
+
+
          
 
 
