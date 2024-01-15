@@ -11,6 +11,8 @@
 2. ##### We have created a docker file which will help to containerize the profile microservice.
    ![backend_profileservice](https://github.com/himani0550/Orchestration_assign/assets/77041503/470758f6-9919-4274-b274-09970abd1a87)
 3. ##### Now, we will push the image to ECR.
+   ![image](https://github.com/himani0550/Orchestration_assign/assets/77041503/82b75ab3-befd-4221-a7a7-8648e0194c2d)
+
          
 
 
