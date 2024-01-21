@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-hs-mern-himani
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend-hs-mern-himani
+  template:
+    metadata:
+      labels:
+        app: frontend-hs-mern-himani
+    spec:
+      containers:
+      - name: frontend-microservice
+        image: public.ecr.aws/c3w1m1q2/himani_orches_frontend:latest
+        ports:
+        - containerPort: 3000
+        env:
+          - name: REACT_APP_HS_URL
+            value: "http://your-hello-loadbalancer-service-dns"
+          - name: REACT_APP_PS_URL
+            value: "http://your- profile-loadbalancer-service-dns"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-be-service
+spec:
+  selector:
+    app: frontend-hs-mern-himani
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
